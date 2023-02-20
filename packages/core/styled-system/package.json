@@ -1,0 +1,9 @@
+{
+  "name": "@tupi/styled-system",
+  "version": "0.0.0",
+  "description": "Style function for css-in-js building components library",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@vinybergamo/button",
+  "version": "0.0.1",
+  "description": "A React component that is a base button.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {}
+}
