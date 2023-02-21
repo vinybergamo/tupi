@@ -23,7 +23,7 @@ module.exports = {
       },
     ],
     "brace-style": "off",
-    "no-multiple-empty-lines": ["error", { max: 1, maxBOF: 0, maxEOF: 0 }],
+    "no-multiple-empty-lines": ["error", { max: 2, maxBOF: 0, maxEOF: 0 }],
     "no-var": "error",
     camelcase: "error",
     semi: "error",

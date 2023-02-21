@@ -1,0 +1,13 @@
+{
+  "name": "@tupi/shared-utils",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "shared-utils"
+  ],
+  "author": "Vinybergamo <contato@vinybergamo.com>",
+  "homepage": "https://github.com/vinybergamo/tupi#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "packageManager": "yarn@3.3.1"
+}
