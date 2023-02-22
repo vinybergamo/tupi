@@ -497,6 +497,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tupi/shared-utils@workspace:*, @tupi/shared-utils@workspace:packages/utilities/shared-utils":
+  version: 0.0.0-use.local
+  resolution: "@tupi/shared-utils@workspace:packages/utilities/shared-utils"
+  dependencies:
+    tsconfig: "workspace:^"
+    typescript: latest
+  languageName: unknown
+  linkType: soft
+
+"@tupi/styled-system@workspace:packages/core/styled-system":
+  version: 0.0.0-use.local
+  resolution: "@tupi/styled-system@workspace:packages/core/styled-system"
+  dependencies:
+    "@tupi/shared-utils": "workspace:*"
+    tsconfig: "workspace:^"
+    typescript: latest
+  languageName: unknown
+  linkType: soft
+
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -3073,7 +3092,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig@*, tsconfig@workspace:packages/tsconfig":
+"tsconfig@*, tsconfig@workspace:^, tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "tsconfig@workspace:packages/tsconfig"
   languageName: unknown
@@ -3202,7 +3221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.5.3, typescript@npm:^4.7.4, typescript@npm:^4.9.5":
+"typescript@npm:^4.5.3, typescript@npm:^4.7.4, typescript@npm:^4.9.5, typescript@npm:latest":
   version: 4.9.5
   resolution: "typescript@npm:4.9.5"
   bin:
@@ -3212,7 +3231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.5.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>, typescript@patch:typescript@latest#~builtin<compat/typescript>":
   version: 4.9.5
   resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"
   bin:
@@ -3297,7 +3316,7 @@ __metadata:
     next: ^13.1.1
     react: ^18.2.0
     react-dom: ^18.2.0
-    tsconfig: "*"
+    tsconfig: "workspace:^"
     typescript: ^4.5.3
     ui: "*"
   languageName: unknown

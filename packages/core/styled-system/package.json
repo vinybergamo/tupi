@@ -5,5 +5,10 @@
   "main": "src/index.ts",
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@tupi/shared-utils": "workspace:*",
+    "tsconfig": "workspace:^",
+    "typescript": "latest"
+  }
 }
